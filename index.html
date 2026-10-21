@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl" class="dark" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrandMaker AI — صانع البراند الذكي</title>
+    <meta name="description" content="منصة ذكية لبناء هوية البراند المتكاملة، استراتيجية تسعير بالجنيه المصري، خطة تسويق 30 يوماً، وتوليد شعارات وصور بالذكاء الاصطناعي." />
+    <meta property="og:title" content="BrandMaker AI — صانع البراند الذكي" />
+    <meta property="og:description" content="منصة ذكية لبناء هوية البراند المتكاملة، استراتيجية تسعير بالجنيه المصري، خطة تسويق 30 يوماً، وتوليد شعارات وصور بالذكاء الاصطناعي." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Google Fonts: Cairo & Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    
+    <!-- Instant Theme Detection Script: Default to Dark Theme Everywhere -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('bm_theme');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.setAttribute('data-theme', 'light');
+          } else {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8F7FC] dark:bg-[#0B0F19] text-[#172033] dark:text-slate-100 antialiased min-h-screen selection:bg-purple-500/20 selection:text-purple-900 dark:selection:bg-purple-500/30 dark:selection:text-purple-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

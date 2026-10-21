@@ -1,0 +1,8 @@
+{
+  "name": "BrandMaker AI — صانع البراند الذكي",
+  "description": "منصة ذكية لبناء هوية البراند المتكاملة، استراتيجية تسعير بالجنيه المصري، خطة تسويق 30 يوماً، وتوليد شعارات وصور بالذكاء الاصطناعي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
